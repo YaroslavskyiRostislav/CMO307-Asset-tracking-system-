@@ -1,5 +1,4 @@
-namespace AssetTracker
-{
+namespace AssetTracker;
     internal static class Program
     {
         /// <summary>
@@ -14,4 +13,3 @@ namespace AssetTracker
             Application.Run(new AddAssetForm());
         }
     }
-}

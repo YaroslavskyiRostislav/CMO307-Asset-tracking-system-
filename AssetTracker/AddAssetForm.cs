@@ -1,3 +1,6 @@
+using AssetTracker.Data;
+using MySql.Data.MySqlClient;
+
 namespace AssetTracker
 {
     public partial class AddAssetForm : Form
@@ -7,7 +10,7 @@ namespace AssetTracker
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void AddAssetForm_Load(object sender, EventArgs e)
         {
 
         }

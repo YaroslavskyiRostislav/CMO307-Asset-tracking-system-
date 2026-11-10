@@ -110,6 +110,7 @@
             // 
             // cboEmployee
             // 
+            cboEmployee.DropDownStyle = ComboBoxStyle.DropDownList;
             cboEmployee.FormattingEnabled = true;
             cboEmployee.Location = new Point(105, 305);
             cboEmployee.Name = "cboEmployee";
@@ -231,8 +232,8 @@
             Controls.Add(txtSystemName);
             Controls.Add(lblInstructions);
             Name = "AddAssetForm";
-            Text = "Form1";
-            Load += Form1_Load;
+            Text = "Add Asset";
+            Load += AddAssetForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
