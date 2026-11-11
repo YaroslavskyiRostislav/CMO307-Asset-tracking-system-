@@ -96,8 +96,10 @@
             // 
             // dtpPurchaseDate
             // 
+            dtpPurchaseDate.Checked = false;
             dtpPurchaseDate.Location = new Point(105, 247);
             dtpPurchaseDate.Name = "dtpPurchaseDate";
+            dtpPurchaseDate.ShowCheckBox = true;
             dtpPurchaseDate.Size = new Size(415, 23);
             dtpPurchaseDate.TabIndex = 6;
             // 
@@ -125,6 +127,7 @@
             btnSave.TabIndex = 9;
             btnSave.Text = "Save asset";
             btnSave.UseVisualStyleBackColor = true;
+            btnSave.Click += btnSave_Click;
             // 
             // btnClear
             // 
@@ -134,6 +137,7 @@
             btnClear.TabIndex = 10;
             btnClear.Text = "Clear";
             btnClear.UseVisualStyleBackColor = true;
+            btnClear.Click += btnClear_Click;
             // 
             // lblSystemName
             // 
